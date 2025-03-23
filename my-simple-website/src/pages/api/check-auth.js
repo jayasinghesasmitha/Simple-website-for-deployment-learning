@@ -1,3 +1,4 @@
+// pages/api/check-auth.js
 import { getCookie } from 'cookies';
 
 export default function handler(req, res) {

@@ -1,3 +1,4 @@
+// pages/api/signin.js
 import mysql from 'mysql2/promise';
 import bcrypt from 'bcryptjs';
 import { setCookie } from 'cookies';
