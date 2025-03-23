@@ -26,7 +26,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jayasinghesasmitha/Simple-website-for-deployment-learning.git
    ```
 
 2. **Install Dependencies**:
