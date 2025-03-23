@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .signInForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .signInInput {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .signInButton {
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
