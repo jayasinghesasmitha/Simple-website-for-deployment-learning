@@ -12,7 +12,7 @@ This project was created as a learning experience to explore the deployment of a
   - **Frontend:** [Next.js](https://nextjs.org/)
   - **Database:** [MySQL](https://www.mysql.com/)
   - **Deployment Platform:** [Vercel](https://vercel.com/)
-- **Live Link:** [http://10.10.20.40:3000/](http://10.10.20.40:3000/) (accessible within the local network).
+- **Live Link:** (http://10.10.20.40:3000/) (accessible within the local network).
 
 ## 🛠️ Features
 
