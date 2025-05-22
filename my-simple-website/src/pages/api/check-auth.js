@@ -1,10 +1,11 @@
 // pages/api/check-auth.js
-import { getCookie } from 'cookies';
-
 export default function handler(req, res) {
-  const authCookie = getCookie('auth', { req });
-  if (authCookie) {
-    return res.status(200).json({ authenticated: true });
+  // Example: Check for a session cookie or token
+  const isAuthenticated = req.cookies.authToken ? true : false; // Replace with your auth logic
+
+  if (isAuthenticated) {
+    res.status(200).json({ authenticated: true });
+  } else {
+    res.status(200).json({ authenticated: false });
   }
-  res.status(200).json({ authenticated: false });
 }
